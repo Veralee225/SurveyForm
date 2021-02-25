@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #d3bf09;
+    color: black;
+    line-height: 1.4;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    padding: 3rem;
+    color: #fff;
+}
+
+h1 {
+    color: #062863;
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    line-height: 1.2;
+}
+
+h1, p {
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    text-align: center;
+}
+
+#container{
+    margin: 30px auto;
+    max-width: 600px;
+    padding: 5px; 
+    display: flex;
+    flex-direction: column;
+}
+
+#survey-form {
+    background:  #a79604;
+    border-radius: 20px 20px 20px 0;
+    padding: 15px 25px;
+    color: #333;
+    flex-direction: column;
+}
+
+.select-group label {
+    margin-top: 15px;
+    margin-bottom: .25rem;
+    line-height: 2;
+    display: block;
+    font-size: .75rem;
+    font-weight: 700;    
+}
+ 
+.select-group select {
+    border: 0 solid #e2e8f0;
+    font-size: 100%;
+    background-color: #edf2f7;
+    color: #1a202c;
+    padding: 1rem;
+    width: 248%;
+    margin-bottom: .75rem;
+    border-radius: 5px;
+}
+
+.form-group label{
+    margin-top: 15px;
+   margin-bottom: .25rem;
+   line-height: 2;
+   display: block;
+   font-size: .75rem;
+   font-weight: 700;
+}
+.form-group input {
+    border: 0 solid #e2e8f0;
+    font-size: 100%;
+    background-color: #edf2f7;
+    color: #1a202c;
+    padding: 1rem;
+    width: 90%;
+    margin-bottom: .75rem;
+    border-radius: 5px;
+}
+
+.form-group input textarea {
+    max-width: 500px;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.radio {
+    display: block;
+    width: 5em;
+    height: 5em;
+    border-radius: 30%;
+    border: 0.1em;
+}
+.checkbox {
+    display: block;
+}
+ 
+.form-group button {
+    background-color: rgb(34, 31, 31); 
+    display: block;
+    max-width: 500px;
+    width: 80%;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 1.25rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1rem;
+    border-radius: 10px 10px 10px 0;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background: #a79604; 
+    transform: scale(1,1);filter: drop-shadow(2px 3px 3px #333);
+} 
+
+
+
+

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">
+        Vera's Survey Form
+    </h1>
+<div id="container">
+    <p id="description">
+        Thank you for taking the time to help 
+            us improve the platform
+    </p>
+    
+    <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="name" id="name" required placeholder="Name">
+            </div>
+
+            <!--Email-->
+        <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input type="email" name="email" id="email" required placeholder="Enter a valid email address">
+        </div>
+
+        <!--Number-->
+        <div class="form-group">
+            <label id="number-label" for="number">Age(optional)</label>
+            <input type="number" size="6" name="age" min="10" max="99"  id="number" required placeholder="Age">
+        </div>
+
+        <!--Drop Down-->
+        <div id="dropdown">
+
+        <!--Select button-->
+    <div class="select-group">
+        <div style="width:200px;">
+        <label for="text">Which option best describes your current role?</label>
+        <select name="About Us" id="Social Platforms" placeholder="Select an option">
+            <option value="Student">Student</option>
+            <option value="Full Time Job">Full Tme Job</option>
+            <option value="Full Time Learner">Full Time Learner</option>
+            <option value="Prefer Not To Say">Prefer Not To Say</option>
+            <option value="Other">Other</option>
+        </select>
+        </div>
+
+        <!--Adding Radio Buttons-->
+        <p>Would you recommend freecodecamp to a friend?</p>
+        <div class="radio">
+            <input type="radio" id="definitely" name="recommend" value="definitely">
+            <label for="definitely">Definitely</label>
+        </div>
+
+        <div class="radio">
+            <input type="radio" id="maybe" name="recommend" value="maybe">
+            <label for="maybe">Maybe</label>
+        </div>
+
+        <div class="radio">
+            <input type="radio" id="not sure" name="recommend" value="not sure">
+            <label for="not sure">Not Sure</label>
+        </div>
+
+        <!--Adding checkboxes-->
+        <p>What would you like to see improved? (check all that apply)</p>
+        <div class="checkbox">
+            <input type="checkbox" id="front-end projects" name="improve" value="front-end projects"
+                   checked>
+            <label for="front-end projects">Front-End Projects</label>
+        </div>
+
+        <div class="checkbox">
+            <input type="checkbox" id="back-end projects" name="improve" value="back-end projects">
+            <label for="back-end projects">Back-End Projects</label>
+        </div>
+        
+        <div class="checkbox">
+            <input type="checkbox" id="data visualization" name="improve" value="data visualization">
+            <label for="data visualization">Data Visualization</label>
+        </div>
+        
+        <div class="checkbox">
+            <input type="checkbox" id="challenges" name="improve" value="challenges">
+            <label for="challenges">Challenges</label>
+        </div>
+
+        <div class="checkbox">
+            <input type="checkbox" id="open source community" name="improve" value="open source community">
+            <label for="open source community">Open Source Community</label>
+        </div>
+
+        <div class="checkbox">
+            <input type="checkbox" id="gitter help rooms" name="improve" value="gitter help rooms">
+            <label for="gitter help rooms">Gitter Help Rooms</label>
+        </div>
+
+        <div class="checkbox">
+            <input type="checkbox" id="videos" name="improve" value="videos">
+            <label for="videos">Videos</label>
+        </div>
+
+        <div class="checkbox">
+            <input type="checkbox" id="city meetups" name="improve" value="city meetups">
+            <label for="city meetups">City Meetups</label>
+        </div>
+
+        <div class="checkbox">
+            <input type="checkbox" id="wiki" name="improve" value="wiki">
+            <label for="wiki">Wiki</label>
+        </div>
+
+        <div class="checkbox">
+            <input type="checkbox" id="forum" name="improve" value="forum">
+            <label for="forum">Forum</label>
+        </div>
+
+        <div class="checkbox">
+            <input type="checkbox" id="additional courses" name="improve" value="additional courses">
+            <label for="additional courses">Additional Courses</label>
+        </div>
+
+        <!--Adding textarea for comments-->
+        <div id="form-group">
+        <label for="comments">Any comments or suggestions?</label>
+        <textarea name="comments" id="comments" placeholder="Enter your comment here"
+          rows="5" cols="33"></textarea>
+        </div><!--commments-->
+
+        <!--Submit button-->
+          <div class="form-group">
+          <button type="submit" id="submit" class="btn">Submit</button>
+        </div><!--Submit div-->
+    </form>
+</div>    
+</body>
+</html>
