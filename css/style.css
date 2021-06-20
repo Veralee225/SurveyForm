@@ -94,7 +94,7 @@ p {
 .form-group input textarea {
     max-width: 500px;
     width: 100%;
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 5px;
 }
 
