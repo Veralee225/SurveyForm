@@ -1,4 +1,4 @@
-Build a Survey Form
+# Build a Survey Form
 
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/VPaoNP.
 
@@ -42,5 +42,3 @@ You can build your project by forking this CodePen pen. Or you can use this CDN 
 
 Once you're done, submit the URL to your working project with all its tests passing.
 
-
-Live Site - https://veralee225.github.io/SurveyForm/
